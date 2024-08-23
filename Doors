@@ -1,0 +1,42 @@
+pcall(function()
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Material = Enum.Material.DiamondPlate
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Color = Color3.new(0.341176, 0.341176, 0.341176)
+		    end
+		end
+	end
+end)
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign") ~= nil then
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door").Sign:Destroy()
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign"):Destroy()
+                end
+		    end
+		end
+	end
+end)
+end)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+-- doors
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0.0005)
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+    end
+end)()
