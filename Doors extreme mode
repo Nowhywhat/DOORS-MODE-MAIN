@@ -1,5 +1,5 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extremist Mode!",true)
-wait(3)
+wait()
 game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("!Dont Use Script In Backdoors!")
 wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/Admincmds"))()
