@@ -1,0 +1,1364 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extreme Mode Not Found!",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creator by Zixsoed[No?What?What?]",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mode Original by Unis!",true)
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Mode Original by Unis")
+wait()
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Error 404 Not Found")
+wait()
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("!Dont Use Script In Backdoors!")
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/Admincmds"))()
+wait()
+pcall(function()
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Material = Enum.Material.Slate
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Color = Color3.new(0.341176, 0.341176, 0.341176)
+		    end
+		end
+	end
+end)
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign") ~= nil then
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door").Sign:Destroy()
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign"):Destroy()
+                end
+		    end
+		end
+	end
+end)
+end)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+-- doors
+coroutine.wrap(function()
+    while true do
+        wait(0.1)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0.1)
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://7309104360"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+    end
+end)()
+
+-- doors 2
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0.1)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://7309104360"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://7309104360"
+    end
+end)()
+
+--Open--
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/Sound"))()
+wait()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good Luck👍",true)
+wait()
+
+function matcher()
+pcall(function()
+while true do wait(130)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(212, 255, 0)
+game.Lighting.MainColorCorrection.Contrast = 0.3
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+    local roast = Instance.new("Sound")
+    roast.Parent = workspace
+    roast.Name = "roast"
+    roast.SoundId = "rbxassetid://9125936117"
+    roast.Volume = 5
+    roast.Pitch = 3
+    roast:Play()
+    wait(0.6)
+    roast:Destroy()
+    
+---====== Define spawner ======---
+ 
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+ 
+---====== Create entity ======---
+ 
+local entity = Spawner.createEntity({
+    CustomName = "Matcher",
+    Model = "rbxassetid://12705324154",
+    Speed = 200,
+    MoveDelay = 5,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 40,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 0
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {5.5, 20, 0.1, 1},
+        Range = 50
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true
+})
+ 
+---====== Debug ======---
+ 
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+end
+ 
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
+end
+ 
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+ 
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+ 
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+ 
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+ 
+entity.Debug.OnDeath = function()
+    print("Player has died")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/MatcherJumpscare.txt"))()
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+ 
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+ 
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "You died to Matcher",
+}, "Blue") -- "Blue" or "Yellow"
+end
+ 
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+ 
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+ 
+---====== Run entity ======---
+ 
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function depth()
+pcall(function()
+while true do wait(190)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Define spawner ======---
+ 
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+ 
+---====== Create entity ======---
+ 
+local entity = Spawner.createEntity({
+    CustomName = "Depth",
+    Model = "rbxassetid://13296774233",
+    Speed = 350,
+    MoveDelay = 5,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 0.5
+    },
+    Cycles = {
+        Min = 1.5,
+        Max = 2,
+        Delay = 2.5
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {9.5, 20, 0.1, 1},
+        Range = 50
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true
+})
+ 
+---====== Debug ======---
+ 
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("So cold!",true)
+end
+ 
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Too Depths",
+    Desc = "I'm catching for you",
+    Reason = "Encounter Depth",
+    Image = "rbxassetid://12482826636"
+})
+end
+ 
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+ 
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+ 
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+ 
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+ 
+entity.Debug.OnDeath = function()
+    print("Player has died")
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+ 
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+ 
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "You died to Depth",
+    "It occasionally appears ???",
+    "He will come back many times, so hide until it is safe...",
+}, "Blue") -- "Blue" or "Yellow"
+end
+ 
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+ 
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+ 
+---====== Run entity ======---
+ 
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function ripper()
+pcall(function()
+while true do wait(230)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Define spawner ======---
+ 
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+ 
+---====== Create entity ======---
+ 
+local entity = Spawner.createEntity({
+    CustomName = "Ripper",
+    Model = "rbxassetid://15989468546",
+    Speed = 185,
+    MoveDelay = 8,
+    HeightOffset = 3,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 5
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {6.5, 20, 0.1, 1},
+        Range = 50
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true
+})
+ 
+---====== Debug ======---
+ 
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    local redtweeninfo = TweenInfo.new(3)
+local redinfo = {Color = Color3.new(100, 0, 0)}
+----------
+for i,v in pairs(workspace.CurrentRooms:GetDescendants()) do
+			if v:IsA("Light") then
+					game.TweenService:Create(v,redtweeninfo,redinfo):Play()
+					if v.Parent.Name == "LightFixture" then
+						    game.TweenService:Create(v.Parent,redtweeninfo,redinfo):Play()
+					end
+		  end
+end
+local CameraShaker = require(game.ReplicatedStorage.CameraShaker)
+local camara = workspace.CurrentCamera
+local camShake = CameraShaker.new(Enum.RenderPriority.Camera.Value, function(Cf)
+	camara.CFrame = camara.CFrame * Cf
+end)
+camShake:Start()
+camShake:Shake(CameraShaker.Presets.Earthquake)
+end
+ 
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
+    local CameraShaker = require(game.ReplicatedStorage.CameraShaker)
+local camara = game.Workspace.CurrentCamera
+local camShake = CameraShaker.new(Enum.RenderPriority.Camera.Value, function(shakeCf)
+ camara.CFrame = camara.CFrame * shakeCf
+end)
+camShake:Start()
+camShake:ShakeOnce(15,25,0,2,1,6)
+
+    local ripeend = Instance.new("Sound")
+    ripeend.Parent = workspace
+    ripeend.Name = "RipperEnd"
+    ripeend.SoundId = "rbxassetid://1837829565"
+    ripeend.Volume = 3
+    ripeend.Pitch = 1
+    ripeend:Play()
+    wait(3)
+    ---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Torn Apart",
+    Desc = "Dont leave too early..",
+    Reason = "Encounter Ripper.",
+    Image = "rbxassetid://17702317077"
+})
+end
+ 
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+    function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName..".mp3", game:HttpGet(url))
+    return (getcustomasset or getsynasset)(FileName..".mp3")
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Rpmv = Instance.new("Sound")
+    Rpmv.SoundId = GitAud(soundlink, filename)
+    Rpmv.Parent = workspace
+    Rpmv.Volume = 3
+    Rpmv:Play()
+end
+
+CustomGitSound("https://github.com/Nowhywhat/Entity-sound/raw/main/rippermoving.mp3", 1, "Rpmv")
+end
+ 
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+ 
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+ 
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+ 
+entity.Debug.OnDeath = function()
+    print("Player has died")
+    local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+ 
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+ 
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "You died to Ripper",
+}, "Blue") -- "Blue" or "Yellow"
+end
+ 
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+ 
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+ 
+---====== Run entity ======---
+ 
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function trauma()
+pcall(function()
+while true do wait(440)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Trauma",
+    Model = "rbxassetid://18454029265", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 1000,
+    MoveDelay = 5,
+    HeightOffset = 1,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = { Enabled = true, Duration = 5 },
+    Cycles = { Min = 1.5, Max = 1.5, Delay = 0.1 },
+    CamShake = { Enabled = true, Values = {9.5, 20, 0.1, 1}, Range = 50 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 0, 0)
+game.Lighting.MainColorCorrection.Contrast = 1
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(10),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "I have been found out ",
+    Desc = "Escape when discovered ",
+    Reason = "Encounter Trauma",
+    Image = "rbxassetid://0"
+})
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("I see you!",true)
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+    if game.Players.LocalPlayer.Character.Humanoid.Health > 0.1 then
+        game.Players.LocalPlayer.Character.Humanoid.Health -= 0.01
+    end
+    local ReSt = game:GetService("ReplicatedStorage") 
+ ReSt.GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Trauma"
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function G95()
+pcall(function()
+while true do wait(530)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local g95 = Instance.new("Sound")
+	g95.Parent = game.Workspace
+	g95.Name = "start"
+	g95.SoundId = "rbxassetid://1079408535"
+	g95.Volume = 10
+	g95.PlaybackSpeed = 0.9
+	g95:Play()
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "G-95",
+    Model = "rbxassetid://11467719106", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 350,
+    MoveDelay = 5,
+    HeightOffset = 1,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = { Enabled = true, Duration = 1 },
+    Cycles = { Min = 2, Max = 4.5, Delay = 0.1 },
+    CamShake = { Enabled = true, Values = {9.5, 20, 0.1, 1}, Range = 100 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    local redtweeninfo = TweenInfo.new(3)
+local redinfo = {Color = Color3.new(100, 0, 0)}
+----------
+for i,v in pairs(workspace.CurrentRooms:GetDescendants()) do
+			if v:IsA("Light") then
+					game.TweenService:Create(v,redtweeninfo,redinfo):Play()
+					if v.Parent.Name == "LightFixture" then
+						    game.TweenService:Create(v.Parent,redtweeninfo,redinfo):Play()
+					end
+		  end
+end
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
+    local CameraShaker = require(game.ReplicatedStorage.CameraShaker)
+local camara = game.Workspace.CurrentCamera
+local camShake = CameraShaker.new(Enum.RenderPriority.Camera.Value, function(shakeCf)
+ camara.CFrame = camara.CFrame * shakeCf
+end)
+camShake:Start()
+camShake:ShakeOnce(15,25,0,2,1,6)
+    local Slam = Instance.new("Sound")
+	Slam.Parent = game.Workspace
+	Slam.Name = "Sound"
+	Slam.SoundId = "rbxassetid://1837829565"
+	Slam.Volume = 5
+	Slam.PlaybackSpeed = 0.7
+	Slam:Play()
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function smiler()
+pcall(function()
+while true do wait(620)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Smiler",
+    Model = "rbxassetid://16734826391", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 500,
+    MoveDelay = 12,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = true,
+    FlickerLights = { Enabled = true, Duration = 10 },
+    Cycles = { Min = 10, Max = 10, Delay = 0.5 },
+    CamShake = { Enabled = false, Values = {3.5, 20, 0.1, 1}, Range = 100 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+    game.Lighting.Ambient = Color3.fromRGB(255,0,0)
+game:GetService("TweenService"):Create(game.Lighting, TweenInfo.new(1.5), {Ambient = Color3.fromRGB(255, 255, 255)}):Play()
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function tiker()
+pcall(function()
+while true do wait(590)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Tiker",
+    Model = "rbxassetid://12686240661", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 130,
+    MoveDelay = 5,
+    HeightOffset = 1,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = { Enabled = true, Duration = 1 },
+    Cycles = { Min = 1, Max = 1, Delay = 1 },
+    CamShake = { Enabled = true, Values = {5.5, 20, 0.1, 1}, Range = 60 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    loadstring(game:HttpGet("https://pastefy.app/As7S25mh/raw"))()
+    local spawn = Instance.new("Sound")
+	spawn.SoundId = "rbxassetid://"..261227592
+	spawn.Looped = false
+	spawn.Parent = workspace
+	spawn.Volume = 10
+	spawn:Play()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function wh1t3()
+pcall(function()
+while true do wait(900)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Define spawner ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "WH1T3",
+    Model = "rbxassetid://16735149732", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 500,
+    MoveDelay = 5,
+    HeightOffset = 3,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = true,
+        Duration = 1
+    },
+    Cycles = {
+        Min = 2,
+        Max = 2,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {9.5, 20, 0.1, 1},
+        Range = 50
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true,
+    DeathMessage = {"Custom", "death", "message", "goes", "here."},
+    IsCuriousLight = false
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/Entity-doors/main/Wh1t3effect"))()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Fought a beast and survived.",
+    Desc = "How",
+    Reason = "Survive WH1T3.",
+    Image = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/MOSHED-2022-11-27-1-33-26.jpg?raw=true",
+})
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    if game.Players.LocalPlayer.Character.Humanoid.Health > 0.1 then
+        game.Players.LocalPlayer.Character.Humanoid.Health -= 0.01
+    end
+    local ReSt = game:GetService("ReplicatedStorage") 
+ ReSt.GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Wh1t3"
+end
+
+entity.Debug.OnDeath = function()
+    wait(5)
+    game:Shutdown()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function monoxide()
+pcall(function()
+while true do wait(830)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Nomoxide",
+    Model = "https://github.com/Johnny39871/assets/blob/main/Monoxidebutbetter.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 500,
+    MoveDelay = 5,
+    HeightOffset = 1,
+    CanKill = true,
+    KillRange = 40,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = { Enabled = true, Duration = 5 },
+    Cycles = { Min = 2, Max = 3, Delay = 2 },
+    CamShake = { Enabled = true, Values = {9.5, 20, 0.1, 1}, Range = 50 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    local ele = Instance.new("Sound")
+	ele.Parent = game.Workspace
+	ele.Name = "start2"
+	ele.SoundId = "rbxassetid://157325701"
+	ele.Volume = 10
+	ele.PlaybackSpeed = 0.9
+	ele:Play()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+    ---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Electric-Shock ",
+    Desc = "Escape from electric shock ",
+    Reason = "Encounter Monoxide",
+    Image = "rbxassetid://10888024922"
+})
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function ud()
+pcall(function()
+while true do wait(30)
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function spawnShocker()
+    local shockerModel = game:GetObjects("rbxassetid://12777079952")[1]
+    shockerModel.PrimaryPart = shockerModel:FindFirstChild("HumanoidRootPart") or shockerModel:FindFirstChildWhichIsA("Part")
+    
+    local camera = Workspace.CurrentCamera
+    shockerModel:SetPrimaryPartCFrame(camera.CFrame * CFrame.new(0, 0, -7))
+    shockerModel.Parent = Workspace
+
+    local oogaBoogaaPart = shockerModel:WaitForChild("OOGA BOOGAAAA")
+    local horrorScream = shockerModel:WaitForChild("OOGA BOOGAAAA"):WaitForChild("HORROR SCREAM 15")
+
+    local lookDuration = 5
+    local startTime = tick()
+    local playerLookingAtShocker = true
+
+    while playerLookingAtShocker do
+        wait(4)
+
+        local angle = (oogaBoogaaPart.Position - character.PrimaryPart.Position).unit
+        local direction = camera.CFrame.LookVector
+
+        if (angle:Dot(direction) > 0.9) then
+            if tick() - startTime >= lookDuration then
+                horrorScream:Play()
+                humanoid:TakeDamage(20)
+                local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
+	game.Lighting.MainColorCorrection.Contrast = 1
+	local tween = game:GetService("TweenService")
+	tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+	local TweenService = game:GetService("TweenService")
+	local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(255, 255, 255)})
+	TW:Play()
+        local Jc = GetGitSound("https://github.com/Nowhywhat/Entity-sound/blob/main/shocker%20Jumpscares.mp3?raw=true","Attack")
+				Jc.Parent = workspace
+				Jc.Volume = 5
+				Jc:Play()
+                playerLookingAtShocker = false
+
+                local speed = 20
+                local targetPosition = character.PrimaryPart.Position
+
+                while oogaBoogaaPart.Position.Y > targetPosition.Y do
+                    local directionToPlayer = (targetPosition - oogaBoogaaPart.Position).unit
+                    oogaBoogaaPart.Position = oogaBoogaaPart.Position + directionToPlayer * speed * 0.1
+                    wait(0.1)
+                end
+
+                oogaBoogaaPart.CanCollide = false
+                oogaBoogaaPart.Anchored = false
+                wait(2)
+                shockerModel:Destroy()
+game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Shocker"
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+
+DeathHint({
+    "You died to who you call Shocker...",
+    "Dont look at it or it stuns you!"
+}, "Blue") -- "Blue" or "Yellow"
+                break
+            end
+        else
+            
+            oogaBoogaaPart.CanCollide = false
+            oogaBoogaaPart.Anchored = false
+            break
+        end
+    end
+oogaBoogaaPart.CanCollide = false
+oogaBoogaaPart.Anchored = false
+wait(3)
+    shockerModel:Destroy()
+end
+
+spawnShocker()
+end
+end)
+end
+
+function birate()
+pcall(function()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/Entity-doors/main/Birate"))()
+end)
+end
+
+function grudge()
+pcall(function()
+while true do wait(1060)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "grudge",
+    Model = "rbxassetid://18605324344", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 500,
+    MoveDelay = 5,
+    HeightOffset = 1,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = { Enabled = true, Duration = 5 },
+    Cycles = { Min = 2.5, Max = 4.5, Delay = 2 },
+    CamShake = { Enabled = true, Values = {9.5, 20, 0.1, 1}, Range = 50 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("エンティティの呪い",true)
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("我恨你",true)
+    wait(3)
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("!💀Survive The Grudge💀!",true)
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("ここに来ます",true)
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function eyes()
+pcall(function()
+while true do wait(400)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+---====== Get script ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/SpawnerEntity"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Dimensional",
+    Model = "https://github.com/munciseek/DOORS-entity-models/blob/main/Nightmare/Dimensional-Eye.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 0,
+    MoveDelay = 6,
+    HeightOffset = 1,
+    CanKill = false,
+    KillRange = 50,
+    SpawnInFront = true,
+    ShatterLights = false,
+    FlickerLights = { Enabled = false, Duration = 5 },
+    Cycles = { Min = 1, Max = 1, Delay = 2 },
+    CamShake = { Enabled = true, Values = {5.5, 20, 0.1, 1}, Range = 20 },
+    ResistCrucifix = true,
+    BreakCrucifix = false,
+    DeathMessage = {"This death message is not available"},
+    IsCuriousLight = false })
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+    game.workspace.Dimensional:Destroy()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawnedd")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+    if game.Players.LocalPlayer.Character.Humanoid.Health > 0.01 then
+        game.Players.LocalPlayer.Character.Humanoid.Health -= 0.1
+    end
+    local ReSt = game:GetService("ReplicatedStorage") 
+ ReSt.GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Dimensional eye"
+end
+
+entity.Debug.OnDeath = function()
+    print("Player Death")
+end
+
+entity.Debug.OnUseCrucifix = function()
+print("Custom crucifixion script here")
+end
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pcall(function()
+local matcherPas = coroutine.wrap(matcher)
+matcherPas()
+end)
+pcall(function()
+local depthPas = coroutine.wrap(depth)
+depthPas()
+end)
+pcall(function()
+local ripperPas = coroutine.wrap(ripper)
+ripperPas()
+end)
+pcall(function()
+local traumaPas = coroutine.wrap(trauma)
+traumaPas()
+end)
+pcall(function()
+local G95Pas = coroutine.wrap(G95)
+G95Pas()
+end)
+pcall(function()
+local smilerPas = coroutine.wrap(smiler)
+smilerPas()
+end)
+pcall(function()
+local tikerPas = coroutine.wrap(tiker)
+tikerPas()
+end)
+pcall(function()
+local wh1t3Pas = coroutine.wrap(wh1t3)
+wh1t3Pas()
+end)
+pcall(function()
+local monoxidePas = coroutine.wrap(monoxide)
+monoxidePas()
+end)
+pcall(function()
+local udPas = coroutine.wrap(ud)
+udPas()
+end)
+pcall(function()
+local biratePas = coroutine.wrap(birate)
+biratePas()
+end)
+pcall(function()
+local grudgePas = coroutine.wrap(grudge)
+grudgePas()
+end)
+pcall(function()
+local eyesPas = coroutine.wrap(eyes)
+eyesPas()
+end)
+
+game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://6385111188"
+game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.Volume = "1"
+game.Workspace.CurrentRooms["50"].FigureSetup.AmbienceEnd.Volume = "5"
