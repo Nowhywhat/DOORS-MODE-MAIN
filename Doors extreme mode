@@ -1,5 +1,5 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extremist Mode!",true)
-wait()
+wait(3)
 game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("!Dont Use Script In Backdoors!")
 wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nowhywhat/DOORS-MODE-MAIN/main/Admincmds"))()
@@ -480,6 +480,139 @@ end
  
 ---====== Run entity ======---
  
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function deer()
+pcall(function()
+while true do wait(400)
+---====== Define spawner ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Deer god",
+    Model = "rbxassetid://18866321970", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 40,
+    MoveDelay = 0,
+    HeightOffset = 3,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 1
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {5.5, 20, 0.1, 1},
+        Range = 20
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true,
+    DeathMessage = {"Custom", "death", "message", "goes", "here."},
+    IsCuriousLight = false
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+    local match = Instance.new("Sound")
+match.PlaybackSpeed = 1
+match.SoundId = "rbxassetid://6111244462"
+match.Volume = 1
+match.Name = "DeerGodStatic"
+match.Parent = workspace
+match:Play()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
+    local match = Instance.new("Sound")
+match.PlaybackSpeed = 1
+match.SoundId = "rbxassetid://9043357758"
+match.Volume = 1
+match.Name = "DeerGodEscape"
+match.Parent = workspace
+match:Play()
+
+local match = Instance.new("Sound")
+match.PlaybackSpeed = 0.1
+match.SoundId = "rbxassetid://635822826"
+match.Volume = 0.8
+match.Name = "DeerGodEnd"
+match.Parent = workspace
+match:Play()
+wait()
+Deer:Stop()
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Last Chance To Look Away",
+    Desc = "Why You Are Running?",
+    Reason = "Survive the rare Entity Called Deer God",
+    Image = "rbxassetid://11395249132"
+})
+game.workspace.DeerGodStatic:Stop()
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+    local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			 local Runi = GetGitSound("https://github.com/Nowhywhat/Entity-sound/raw/main/Deergod.mp3","Runnin")
+				Runi.Parent = workspace
+				Runi.Volume = 2
+				Runi:Play()
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player has died")
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
 Spawner.runEntity(entity)
 end
 end)
@@ -1350,6 +1483,10 @@ end)
 pcall(function()
 local eyesPas = coroutine.wrap(eyes)
 eyesPas()
+end)
+pcall(function()
+local deerPas = coroutine.wrap(deer)
+deerPas
 end)
 
 game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://6385111188"
