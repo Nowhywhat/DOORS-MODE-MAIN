@@ -1,5 +1,5 @@
 while true do
-wait(5)
+wait(0.5)
 local redtweeninfo = TweenInfo.new(3)
 local redinfo = {Color = Color3.new(0, 0, 0)}
 ----------
